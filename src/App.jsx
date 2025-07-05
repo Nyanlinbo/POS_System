@@ -4,6 +4,7 @@ import { Home } from "./pages";
 import { Auth } from "./pages";
 import { Orders } from "./pages";
 import Header from "./components/shared/Header";
+import Tables from "./pages/Tables";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/orders" element={<Orders />} />
+          <Route path="/tables" element={<Tables />} />
         </Routes>
       </Router>
     </>
