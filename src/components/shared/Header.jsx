@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between p-4 bg-[#000000]">
       <div className="flex items-center gap-2">
-        <ChefHat color="#ffffff" className="h-8 w-8" />
+        {/* <ChefHat color="#ffffff" className="h-8 w-8" /> */}
         <img src={logo} alt="restro logo" className="h-8 w-8" />
         <h1 className="text-lg font-semibold text-[#f5f5f5]">Restro</h1>
       </div>
